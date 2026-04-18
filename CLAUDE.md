@@ -1,5 +1,10 @@
 # Molfetta Website — CLAUDE.md
 
+## Comportamento Claude
+- Avvia sempre ogni sessione con `/caveman:caveman` (full mode)
+- Aggiorna roadmap a ogni step completato
+- Push su GitHub dopo ogni step completato
+
 ## Stack Tecnico
 - HTML5 / CSS3 / JavaScript vanilla
 - Nessuna dipendenza esterna
@@ -36,8 +41,13 @@ git push origin main
 - `style:` modifiche CSS/layout
 - `fix:` correzione bug
 
+## Stato Attuale (2026-04-18)
+- Sito creato e funzionante localmente
+- Git inizializzato, primo commit fatto su branch `main`
+- GitHub repo creata e pushata: https://github.com/alessandroj-Claude/molfetta-website
+
 ## Roadmap
-- [ ] Aggiungere immagini reali della città
+- [x] Aggiungere immagini reali della città (Wikimedia Commons CC)
 - [ ] Sezione "Cosa Vedere" con mappa
 - [ ] Sezione "Gastronomia"
 - [ ] Sezione "Eventi e Feste"
