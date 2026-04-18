@@ -265,6 +265,85 @@ body {
   text-align: center;
 }
 
+/* ===== GASTRONOMIA ===== */
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.food-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border-bottom: 4px solid var(--gold);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.food-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.food-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.food-icon { font-size: 1.8rem; }
+
+.food-tag {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.food-tag--pesce  { background: #d6eaf8; color: #1a5276; }
+.food-tag--primo  { background: #fdebd0; color: #784212; }
+.food-tag--dolce  { background: #fdf2f8; color: #76448a; }
+.food-tag--terra  { background: #e9f7ef; color: #1e8449; }
+
+.food-card h3 {
+  font-size: 1.1rem;
+  color: var(--blue);
+  margin-bottom: 0.5rem;
+}
+
+.food-card > p {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.88rem;
+  color: var(--gray);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.food-ingredients {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid var(--blue-lt);
+  padding-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.food-ingredients li {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.78rem;
+  background: var(--gray-lt);
+  color: var(--gray);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
 /* ===== COSA VEDERE ===== */
 .poi-grid {
   display: grid;

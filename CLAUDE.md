@@ -49,7 +49,7 @@ git push origin main
 ## Roadmap
 - [x] Aggiungere immagini reali della città (Wikimedia Commons CC)
 - [x] Sezione "Cosa Vedere" con mappa (6 POI + OpenStreetMap embed)
-- [ ] Sezione "Gastronomia"
+- [x] Sezione "Gastronomia" (6 piatti tipici con tag, ingredienti, hover cards)
 - [ ] Sezione "Eventi e Feste"
 - [ ] Deploy su GitHub Pages
 - [ ] Versione mobile ottimizzata
