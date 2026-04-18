@@ -230,6 +230,7 @@
             <li>Olio EVO, aglio, prezzemolo</li>
             <li>Pane casereccio</li>
           </ul>
+          <button class="food-recipe-btn" data-recipe="cembotte">Ricetta →</button>
         </div>
 
         <div class="food-card">
@@ -245,6 +246,7 @@
             <li>Polipetti ("pulp'a tenèriedde")</li>
             <li>Limone, sale marino</li>
           </ul>
+          <button class="food-recipe-btn" data-recipe="pescecrudo">Ricetta →</button>
         </div>
 
         <div class="food-card">
@@ -260,6 +262,7 @@
             <li>Cime di rapa o ragù di maiale</li>
             <li>Olio EVO, aglio, peperoncino</li>
           </ul>
+          <button class="food-recipe-btn" data-recipe="strascenete">Ricetta →</button>
         </div>
 
         <div class="food-card">
@@ -275,6 +278,7 @@
             <li>Pecorino grattugiato</li>
             <li>Brodo di carne</li>
           </ul>
+          <button class="food-recipe-btn" data-recipe="tridde">Ricetta →</button>
         </div>
 
         <div class="food-card">
@@ -290,6 +294,7 @@
             <li>Marmellata di amarene</li>
             <li>Glassa e confettini colorati</li>
           </ul>
+          <button class="food-recipe-btn" data-recipe="scarcedde">Ricetta →</button>
         </div>
 
         <div class="food-card">
@@ -305,6 +310,7 @@
             <li>Aglio, sale marino</li>
             <li>Pasta mista (opzionale)</li>
           </ul>
+          <button class="food-recipe-btn" data-recipe="cecineri">Ricetta →</button>
         </div>
 
       </div>
@@ -317,6 +323,24 @@
       <p>&copy; 2026 Molfetta — Città del Mare. Tutti i diritti riservati.</p>
     </div>
   </footer>
+
+  <!-- MODAL RICETTA -->
+  <div class="modal-overlay" id="recipeModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Chiudi">✕</button>
+      <h3 id="modalTitle"></h3>
+      <div class="modal-body">
+        <div class="modal-col">
+          <h4>Ingredienti</h4>
+          <ul id="modalIngredients"></ul>
+        </div>
+        <div class="modal-col">
+          <h4>Preparazione</h4>
+          <ol id="modalSteps"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
