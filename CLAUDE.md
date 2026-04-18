@@ -51,5 +51,5 @@ git push origin main
 - [x] Sezione "Cosa Vedere" con mappa (6 POI + OpenStreetMap embed + link Wikipedia per ogni card)
 - [x] Sezione "Gastronomia" (6 piatti tipici con tag, ingredienti, hover cards + modal popup con ricette reali)
 - [x] Sezione "Eventi e Feste" (6 eventi: Carnevale, San Corrado, Settimana Santa, Corpus Domini, Estate Molfettese, Madonna dei Martiri)
-- [ ] Deploy su GitHub Pages
+- [x] Deploy su GitHub Pages → https://alessandroj-claude.github.io/molfetta-website/
 - [ ] Versione mobile ottimizzata
