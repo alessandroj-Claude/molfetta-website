@@ -50,6 +50,6 @@ git push origin main
 - [x] Aggiungere immagini reali della città (Wikimedia Commons CC)
 - [x] Sezione "Cosa Vedere" con mappa (6 POI + OpenStreetMap embed + link Wikipedia per ogni card)
 - [x] Sezione "Gastronomia" (6 piatti tipici con tag, ingredienti, hover cards + modal popup con ricette reali)
-- [ ] Sezione "Eventi e Feste"
+- [x] Sezione "Eventi e Feste" (6 eventi: Carnevale, San Corrado, Settimana Santa, Corpus Domini, Estate Molfettese, Madonna dei Martiri)
 - [ ] Deploy su GitHub Pages
 - [ ] Versione mobile ottimizzata
